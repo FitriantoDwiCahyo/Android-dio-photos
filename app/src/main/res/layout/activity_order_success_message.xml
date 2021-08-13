@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderSuccessMessage"
+    android:background="@color/bg_primary"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <ImageButton
+        style="@style/ButtonBack"
+        android:padding="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success\nOrder"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/robotoblack"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_ok"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now your order is in the dashboard"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/robotolight"
+            android:textColor="@color/black"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectpuncakphoto">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectPuncakPhoto">
+        <activity
+            android:name=".OrderSuccessMessage"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterSuccessMessage"
+            android:exported="true" />
+        <activity
+            android:name=".FormOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SetNewPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Register3ndActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Register2ndActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MakeSelectionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GetStatedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ForgetPassSuccessMessageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailOrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

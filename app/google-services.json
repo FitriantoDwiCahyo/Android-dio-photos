@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562022878",
+    "project_id": "projectpuncak-2e271",
+    "storage_bucket": "projectpuncak-2e271.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562022878:android:34612a46f09e018a95754f",
+        "android_client_info": {
+          "package_name": "com.example.projectpuncakphoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562022878-fh6ca8qav0da8k52umlll9c8rca6p2sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkjB6feKFVXe_L7Tqtv3G_EdUv3HFxcdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562022878-fh6ca8qav0da8k52umlll9c8rca6p2sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

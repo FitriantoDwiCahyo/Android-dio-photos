@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ProjectPuncakPhoto</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="create_account">create account</string>
+    <string name="sign_up">Sign UP</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="number_phone">Phone Number</string>
+    <string name="wedding">Wedding</string>
+    <string name="event">Event</string>
+    <string name="nama">Nama</string>
+    <string name="location">Location</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="paket">Package</string>
+    <string name="prewedding">Prewedding</string>
+    <string name="harga">Harga</string>
+    <string name="fullname">Fullname</string>
+    <string name="next">next</string>
+    <string name="forget_password1">Forget\nPassword</string>
+    <string name="forget_password_detail">Provide your account\'s email\nwhich you want to reset your password</string>
+    <string name="make_selection_detail">Select which contact detail to reset your password</string>
+    <string name="via_sms">via_sms</string>
+    <string name="via_email">via email</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string-array name="rate_package">
+        <item>Bronze</item>
+        <item>Silver</item>
+        <item>Gold</item>
+    </string-array>
+</resources>
